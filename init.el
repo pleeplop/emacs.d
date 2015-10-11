@@ -87,6 +87,8 @@
 (require 'init-ruby-mode)
 (require 'init-rails)
 (require 'init-sql)
+(require 'init-scala)
+(require 'init-ocaml)
 
 (require 'init-paredit)
 (require 'init-lisp)
@@ -95,6 +97,7 @@
   (require 'init-clojure)
   (require 'init-clojure-cider))
 (require 'init-common-lisp)
+(require 'init-scheme)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
